@@ -19,6 +19,8 @@ namespace MyCalories
         public MainWindow()
         {
             InitializeComponent();
+            var db = new Database();
+
         }
     }
 }
